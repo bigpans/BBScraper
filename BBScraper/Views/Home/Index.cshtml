@@ -1,0 +1,62 @@
+﻿@model BBScraper.Models.Account
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="formulario" class="demo-card-square mdl-card mdl-shadow--2dp form-central">
+    <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Acesse sua conta</h2>
+    </div>
+    @using (Ajax.BeginForm("Index", "Home", new AjaxOptions
+        {
+            HttpMethod = "Post",
+            OnSuccess = "carregarDados(data)"
+    }))
+    {
+    <div class="mdl-card__supporting-text">
+       
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                @Html.TextBoxFor(model => model.Agencia, new { @class = "mdl-textfield__input", pattern = "-?[0-9]*(\\.[0-9]+)?" })
+                <label class="mdl-textfield__label" for="agencia">Agência</label>
+                <span class="mdl-textfield__error">Apenas Números!</span>
+            </div>
+
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                @Html.TextBoxFor(model => model.Conta, new { @class = "mdl-textfield__input", pattern = "-?[0-9]*(\\.[0-9]+)?" })
+                <label class="mdl-textfield__label" for="conta">Conta</label>
+                <span class="mdl-textfield__error">Apenas Números!</span>
+            </div>
+
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                @Html.PasswordFor(model => model.Senha, new { @class = "mdl-textfield__input", pattern = "-?[0-9]*(\\.[0-9]+)?" })
+                <label class="mdl-textfield__label" for="senha">Senha</label>
+                <span class="mdl-textfield__error">Apenas Números!</span>
+            </div>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <input type="submit" id="enviarFormulario" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored width-100" value="Acessar">
+    </div>
+    }
+</div>
+
+
+<!-- html resultado-->
+<div id="resultadoHtml" class="demo-card-square mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title mdl-card--expand">
+        <h2 id="nomeUsuario" class="mdl-card__title-text"></h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+        <div class="mdl-card__supporting-text">
+            <strong>Agência:</strong> <span id="agencia"></span>
+            <br />
+            <strong>Conta:</strong> <span id="conta"></span>
+            <br />
+            <strong>Tipo:</strong> <span id="tipo"></span>
+            <br />
+            <strong>MCI:</strong> <span id="mci"></span>
+           
+        </div>
+    </div>
+</div>
+          
+

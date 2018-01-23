@@ -1,0 +1,5 @@
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\bin\Debug\webscrapping.Domain.dll
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\bin\Debug\webscrapping.Domain.pdb
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\webscrapping.Domain.csproj.CoreCompileInputs.cache
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\webscrapping.Domain.dll
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\webscrapping.Domain.pdb

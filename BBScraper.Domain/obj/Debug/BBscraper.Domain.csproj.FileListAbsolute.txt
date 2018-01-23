@@ -1,0 +1,12 @@
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\bin\Debug\webscrapping.Domain.dll
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\bin\Debug\webscrapping.Domain.pdb
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\BBscraper.Domain.csprojResolveAssemblyReference.cache
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\BBscraper.Domain.csproj.CoreCompileInputs.cache
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\webscrapping.Domain.dll
+F:\Downloads\webscrapping-master\webscrapping-master\webscrapping.Domain\obj\Debug\webscrapping.Domain.pdb
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Domain\bin\Debug\webscrapping.Domain.dll
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Domain\bin\Debug\webscrapping.Domain.pdb
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Domain\obj\Debug\BBscraper.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Domain\obj\Debug\BBscraper.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Domain\obj\Debug\webscrapping.Domain.dll
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Domain\obj\Debug\webscrapping.Domain.pdb

@@ -1,0 +1,26 @@
+﻿body{
+    background: linear-gradient(white, gainsboro);
+}
+
+
+.form-central{
+    position: absolute;
+    left: calc(50% - 165px);
+    top: calc(50% - 173px);
+    padding: 0 20px 20px 20px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.mdl-card--border{
+    border-top: none!important;
+}
+
+#resultadoHtml{
+    position: relative;
+    left: calc(50% - 165px);
+    top: 50px;
+    display: none;
+}
