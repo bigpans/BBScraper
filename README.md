@@ -9,8 +9,9 @@
 ## Usage
 Enter your branch and account number, the password and hit submit to access the data.
 
-##How it works
+## How it works
 The application consists of 4 projects. The main projects is where the MVC pattern is implemented.
+
 The .App project is where the User class that contains the AccessData method which takes the arguments from the users and connects them with the Domain through the User and Bankservice class.
 The .Domain project is where the "magic" scraping is happening. In here is the interface is implemented as well as the URL library code.
 The .Context project is where the DB is implemented through a DBBuilder method.
