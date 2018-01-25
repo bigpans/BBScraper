@@ -19,3 +19,5 @@ C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Infra\obj\Debug\BBScraper
 C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Infra\obj\Debug\BBScraper.Infra.csproj.CoreCompileInputs.cache
 C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Infra\obj\Debug\webscrapping.Infra.dll
 C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Infra\obj\Debug\webscrapping.Infra.pdb
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Infra\bin\Debug\webscrapping.App.dll
+C:\Users\Mauricio\Documents\GitHub\BBScraper\BBScraper.Infra\bin\Debug\webscrapping.App.pdb
